@@ -1,0 +1,139 @@
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:24] org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(256) | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:24] org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(182) | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@42334f8e, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@36ac1596, org.springframework.test.context.support.DirtiesContextTestExecutionListener@5bbd46e4, org.springframework.test.context.transaction.TransactionalTestExecutionListener@677951c9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@4de89831]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:24] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:26] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:26] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(510) | Refreshing org.springframework.context.support.GenericApplicationContext@a58d300: startup date [Wed Mar 08 09:59:26 CST 2017]; root of context hierarchy
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:26] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(172) | Loading properties file from class path resource [config.properties]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:27] com.alibaba.druid.pool.DruidDataSource.init(669) | {dataSource-1} inited
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:27] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(66) | HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:27] org.hibernate.Version.logVersion(54) | HHH000412: Hibernate Core {4.3.8.Final}
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:27] org.hibernate.cfg.Environment.<clinit>(239) | HHH000206: hibernate.properties not found
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:27] org.hibernate.cfg.Environment.buildBytecodeProvider(346) | HHH000021: Bytecode provider name : javassist
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:27] org.hibernate.dialect.Dialect.<init>(145) | HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:27] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService(62) | HHH000399: Using default transaction strategy (direct JDBC transactions)
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:28] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init>(47) | HHH000397: Using ASTQueryTranslatorFactory
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:28] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(207) | HHH000228: Running hbm2ddl schema update
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:28] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(218) | HHH000102: Fetching database metadata
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:28] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(230) | HHH000396: Updating schema
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:28] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(66) | HHH000261: Table found: shop.user_info
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:28] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(67) | HHH000037: Columns: [id, name, age, telephone]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:28] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(69) | HHH000108: Foreign keys: []
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:28] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(70) | HHH000126: Indexes: [primary]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:28] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(267) | HHH000232: Schema update complete
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:28] org.springframework.orm.hibernate4.HibernateTransactionManager.afterPropertiesSet(360) | Using DataSource [{
+	CreateTime:"2017-03-08 09:59:26",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1819396388, ConnectTime:"2017-03-08 09:59:27", UseCount:2, LastActiveTime:"2017-03-08 09:59:28"}
+	]
+}
+
+[
+	{
+	ID:1819396388, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:29] com.cjzheng.maven.service.TestUserService.save(29) | 0
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:29] org.springframework.context.support.AbstractApplicationContext.doClose(862) | Closing org.springframework.context.support.GenericApplicationContext@a58d300: startup date [Wed Mar 08 09:59:26 CST 2017]; root of context hierarchy
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 09:59:29] com.alibaba.druid.pool.DruidDataSource.close(1385) | {dataSource-1} closed
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:52] org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(256) | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:52] org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(182) | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@15be3a66, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@7bec09b0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4570415f, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4cd3e796, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6c095041]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:52] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:52] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:52] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(510) | Refreshing org.springframework.context.support.GenericApplicationContext@2f678f0e: startup date [Wed Mar 08 10:00:52 CST 2017]; root of context hierarchy
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:52] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(172) | Loading properties file from class path resource [config.properties]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:52] com.alibaba.druid.pool.DruidDataSource.init(669) | {dataSource-1} inited
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:53] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(66) | HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:53] org.hibernate.Version.logVersion(54) | HHH000412: Hibernate Core {4.3.8.Final}
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:53] org.hibernate.cfg.Environment.<clinit>(239) | HHH000206: hibernate.properties not found
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:53] org.hibernate.cfg.Environment.buildBytecodeProvider(346) | HHH000021: Bytecode provider name : javassist
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:53] org.hibernate.dialect.Dialect.<init>(145) | HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:53] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService(62) | HHH000399: Using default transaction strategy (direct JDBC transactions)
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:53] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init>(47) | HHH000397: Using ASTQueryTranslatorFactory
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:53] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(207) | HHH000228: Running hbm2ddl schema update
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:53] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(218) | HHH000102: Fetching database metadata
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:53] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(230) | HHH000396: Updating schema
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:54] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(66) | HHH000261: Table found: shop.user_info
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:54] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(67) | HHH000037: Columns: [id, name, age, telephone]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:54] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(69) | HHH000108: Foreign keys: []
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:54] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(70) | HHH000126: Indexes: [primary]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:54] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(267) | HHH000232: Schema update complete
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:00:54] org.springframework.orm.hibernate4.HibernateTransactionManager.afterPropertiesSet(360) | Using DataSource [{
+	CreateTime:"2017-03-08 10:00:52",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:1956553892, ConnectTime:"2017-03-08 10:00:53", UseCount:2, LastActiveTime:"2017-03-08 10:00:54"}
+	]
+}
+
+[
+	{
+	ID:1956553892, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+[spring_struts2_Hibernate_demo][WARN] [2017-03-08 10:01:03] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(144) | SQL Error: 1062, SQLState: 23000
+[spring_struts2_Hibernate_demo][ERROR] [2017-03-08 10:01:03] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(146) | Duplicate entry '0' for key 'PRIMARY'
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:03] org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl.release(208) | HHH000010: On release of batch it still contained JDBC statements
+[spring_struts2_Hibernate_demo][WARN] [2017-03-08 10:01:03] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning(232) | SQL Warning Code: 1062, SQLState: 23000
+[spring_struts2_Hibernate_demo][WARN] [2017-03-08 10:01:03] org.hibernate.engine.jdbc.spi.SqlExceptionHelper$StandardWarningHandler.logWarning(233) | Duplicate entry '0' for key 'PRIMARY'
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:05] org.springframework.context.support.AbstractApplicationContext.doClose(862) | Closing org.springframework.context.support.GenericApplicationContext@2f678f0e: startup date [Wed Mar 08 10:00:52 CST 2017]; root of context hierarchy
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:05] com.alibaba.druid.pool.DruidDataSource.close(1385) | {dataSource-1} closed
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:44] org.springframework.test.context.support.AbstractTestContextBootstrapper.getDefaultTestExecutionListenerClassNames(256) | Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:44] org.springframework.test.context.support.AbstractTestContextBootstrapper.getTestExecutionListeners(182) | Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@7bec09b0, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@4570415f, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4cd3e796, org.springframework.test.context.transaction.TransactionalTestExecutionListener@6c095041, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@577412d0]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:44] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [applicationContext.xml]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:44] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(317) | Loading XML bean definitions from class path resource [spring-hibernate.xml]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:44] org.springframework.context.support.AbstractApplicationContext.prepareRefresh(510) | Refreshing org.springframework.context.support.GenericApplicationContext@37e0f872: startup date [Wed Mar 08 10:01:44 CST 2017]; root of context hierarchy
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:44] org.springframework.core.io.support.PropertiesLoaderSupport.loadProperties(172) | Loading properties file from class path resource [config.properties]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:45] com.alibaba.druid.pool.DruidDataSource.init(669) | {dataSource-1} inited
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:45] org.hibernate.annotations.common.reflection.java.JavaReflectionManager.<clinit>(66) | HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:45] org.hibernate.Version.logVersion(54) | HHH000412: Hibernate Core {4.3.8.Final}
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:45] org.hibernate.cfg.Environment.<clinit>(239) | HHH000206: hibernate.properties not found
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:45] org.hibernate.cfg.Environment.buildBytecodeProvider(346) | HHH000021: Bytecode provider name : javassist
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.hibernate.dialect.Dialect.<init>(145) | HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.hibernate.engine.transaction.internal.TransactionFactoryInitiator.initiateService(62) | HHH000399: Using default transaction strategy (direct JDBC transactions)
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory.<init>(47) | HHH000397: Using ASTQueryTranslatorFactory
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(207) | HHH000228: Running hbm2ddl schema update
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(218) | HHH000102: Fetching database metadata
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(230) | HHH000396: Updating schema
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(66) | HHH000261: Table found: shop.user_info
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(67) | HHH000037: Columns: [id, name, age, telephone]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(69) | HHH000108: Foreign keys: []
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.hibernate.tool.hbm2ddl.TableMetadata.<init>(70) | HHH000126: Indexes: [primary]
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.hibernate.tool.hbm2ddl.SchemaUpdate.execute(267) | HHH000232: Schema update complete
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:01:46] org.springframework.orm.hibernate4.HibernateTransactionManager.afterPropertiesSet(360) | Using DataSource [{
+	CreateTime:"2017-03-08 10:01:45",
+	ActiveCount:0,
+	PoolingCount:1,
+	CreateCount:1,
+	DestroyCount:0,
+	CloseCount:2,
+	ConnectCount:2,
+	Connections:[
+		{ID:825795308, ConnectTime:"2017-03-08 10:01:46", UseCount:2, LastActiveTime:"2017-03-08 10:01:46"}
+	]
+}
+
+[
+	{
+	ID:825795308, 
+	poolStatements:[
+		]
+	}
+]] of Hibernate SessionFactory for HibernateTransactionManager
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:02:01] com.cjzheng.maven.service.TestUserService.save(30) | 0
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:02:01] org.springframework.context.support.AbstractApplicationContext.doClose(862) | Closing org.springframework.context.support.GenericApplicationContext@37e0f872: startup date [Wed Mar 08 10:01:44 CST 2017]; root of context hierarchy
+[spring_struts2_Hibernate_demo][INFO] [2017-03-08 10:02:01] com.alibaba.druid.pool.DruidDataSource.close(1385) | {dataSource-1} closed

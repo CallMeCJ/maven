@@ -1,0 +1,1 @@
+[spring_struts2_Hibernate_demo][ERROR] [2017-03-08 10:01:03] org.hibernate.engine.jdbc.spi.SqlExceptionHelper.logExceptions(146) | Duplicate entry '0' for key 'PRIMARY'
